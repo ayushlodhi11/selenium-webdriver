@@ -198,7 +198,7 @@ module Selenium
       end
 
       def interfaces
-        interfaces = Socket.getaddrinfo('localhost', 8080).map { |e| e[3] }
+        interfaces = Socket.getaddrinfo('localhost', 8080).map { |e| e[3] }.reject{|interface| interface == "::1"}
         interfaces += ['0.0.0.0', Platform.ip]
 
         interfaces.compact.uniq
