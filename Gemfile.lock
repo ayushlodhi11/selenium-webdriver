@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    selenium-webdriver (3.4.1)
+    selenium-webdriver (3.4.1.1)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
 
