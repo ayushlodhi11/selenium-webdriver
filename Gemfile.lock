@@ -18,7 +18,7 @@ GEM
     ffi (1.9.18)
     hashdiff (0.3.4)
     public_suffix (2.0.5)
-    rack (1.6.8)
+    rack (2.1.4)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
@@ -44,7 +44,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack (~> 1.0)
+  rack (~> 2.1)
   rspec (~> 3.0)
   selenium-webdriver!
   webmock (~> 2.0)
